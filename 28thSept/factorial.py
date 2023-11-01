@@ -5,6 +5,6 @@ def factorial(x):
     if x > 1:
         res = x * factorial(x-1)
     return res
-
+# res = 6 * (5 * (4 * (3 * (2 * (1)))))
 result = factorial(n)
 print(result)
